@@ -2,7 +2,7 @@ package com.id.angga.philipbeer.data.mappers
 
 import com.id.angga.philipbeer.data.local.BeerEntity
 import com.id.angga.philipbeer.data.remote.BeerDto
-import com.id.angga.philipbeer.domain.Beer
+import com.id.angga.philipbeer.domain.model.Beer
 
 fun BeerDto.toBeerEntity() : BeerEntity {
     return BeerEntity(

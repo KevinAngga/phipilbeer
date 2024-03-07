@@ -8,13 +8,12 @@ import androidx.paging.map
 import com.id.angga.philipbeer.data.local.BeerEntity
 import com.id.angga.philipbeer.data.mappers.toBeer
 import com.id.angga.philipbeer.data.mappers.toBeerEntity
-import com.id.angga.philipbeer.domain.Beer
+import com.id.angga.philipbeer.domain.model.Beer
 import com.id.angga.philipbeer.domain.repository.BeerRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

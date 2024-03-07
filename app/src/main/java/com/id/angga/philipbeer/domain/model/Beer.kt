@@ -1,4 +1,4 @@
-package com.id.angga.philipbeer.domain
+package com.id.angga.philipbeer.domain.model
 
 data class Beer(
     val id: Int,

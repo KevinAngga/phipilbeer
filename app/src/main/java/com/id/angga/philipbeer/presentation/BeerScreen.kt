@@ -15,12 +15,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import com.id.angga.philipbeer.domain.Beer
+import com.id.angga.philipbeer.domain.model.Beer
 
 @Composable
 fun BeerScreen(
-  beers: LazyPagingItems<Beer>,
-  onDelete : (beer : Beer) -> Unit
+    beers: LazyPagingItems<Beer>,
+    onDelete : (beer : Beer) -> Unit
 ) {
     val context = LocalContext.current
     LaunchedEffect(key1 = beers.loadState) {
